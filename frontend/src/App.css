@@ -1,0 +1,82 @@
+html {
+  height: 100%;
+  background: linear-gradient(to bottom right, #e6aca7, #926db1);
+  /* overflow-y: scroll; */
+}
+
+img {
+  width: 3%;
+  padding: 5px;
+}
+
+.mainContainer {
+  display: flex;
+  /* background: linear-gradient(to bottom right, #e6aca7, #926db1); */
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: rgb(82, 78, 78);
+  margin-top: 16px;
+}
+
+.totalWaves {
+  text-align: center;
+  color: rgb(82, 78, 78);
+  margin-top: 50px;
+}
+
+.messageSubmit{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+  align-self: center;
+  width: 500px;
+  margin-top: 16px;
+}
+
+.waveButton {
+  background: linear-gradient(to right, #a2ccb6, #fceeb5, #ee786e);
+  background-size: 500%;
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 12px 28px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+
+}
+
+.allWaves {
+  height: 450px;
+  width: 100%;
+  overflow-y: auto;
+}
+
+
